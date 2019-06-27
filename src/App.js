@@ -1,14 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from './logo.png';
 import './App.css';
+import AboutMe from './components/AboutMe.jsx';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <AboutMe/>
+      <header className="Blue">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Hi, my name is Jen Kim and this is my site :D
         </p>
         <a
           className="App-link"
